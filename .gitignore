@@ -1,0 +1,32 @@
+.DS_Store
+.ipynb_checkpoints/
+_build/
+
+# make sure Labs aren't included
+Lab*.ipynb
+lab*.ipynb
+
+# virtual environments
+.venv/
+myenv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS system
+.DS_Store
+
+# CSV or dataset files
+*.csv
+*.parquet
+*.xlsx
