@@ -13,6 +13,11 @@ exclude_patterns:
 execute:
   execute_notebooks: "off"
 
+html:
+  use_edit_page_button: false
+  use_repository_button: false
+  use_issues_button: false
+
 sphinx:
   config:
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
@@ -22,4 +27,6 @@ sphinx:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.7/require.min.js
     suppress_warnings: ["mystnb.unknown_mime_type"]
     plotly_include_js: "cdn"
+
+
     
